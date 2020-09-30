@@ -1,0 +1,48 @@
+@media (max-width: 1000px) {
+
+.lesson {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+}
+}
+
+@media (max-width: 670px) {
+
+.lesson {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+}
+
+.facebook {
+  margin-bottom: 10px;
+}
+
+.top-wrapper h1 {
+  font-size: 24px;
+  text-align: left;
+}
+
+.top-wrapper p {
+  font-size: 14px;
+  text-align: left;
+}
+.top-wrapper p:nth-child(4){
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+}
+
+}

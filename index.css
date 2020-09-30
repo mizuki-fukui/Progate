@@ -1,0 +1,194 @@
+*{
+  margin : 0;
+  padding : 0;
+  
+  box-sizing: border-box;
+}
+.top-wrapper {
+  width: 100%;
+  background: url(img/top.png);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  padding-top: 180px;
+  opacity: 0.7;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  padding-bottom: 30px;
+}
+
+.top-wrapper p:nth-child(4) {
+  padding: 15px 0 15px 0;
+}
+
+.signup {
+  background: #239b76;
+  opacity: 0.8;
+}
+
+.facebook {
+  background: #3b5998;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.twitter {
+  background: #55acee;
+  opacity: 0.8;
+}
+
+.btn {
+  padding: 8px 24px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn:hover {
+opacity: 1;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  background: rgba(34, 49, 52, 0.9);
+  z-index: 1;
+  position: fixed;;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header-logo img {
+  padding-top: 20px;
+  width: 124px;
+}
+
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  background: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  line-height: 65px;
+}
+
+.header-right a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transition: all 0.7s;
+}
+
+.lesson-wrapper {
+  width: 100%;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.lesson-wrapper h2 {
+  padding-top: 80px;
+  color: #5f5d60;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+
+.lesson {
+  float:left;
+  width: 25%;
+}
+
+.lesson-icon {
+  padding: 0;
+  margin: 0;
+}
+
+.lesson-icon p {
+  position: relative;
+  top: -120px;
+  width: 100%;
+  color: white;
+}
+
+.text-content p {
+  color: #b3aeb5;
+  font-size: 13px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.message {
+  width: 100%;
+  text-align: center;
+  padding: 80px 0 80px 0;
+  color: #5f5d60;
+}
+
+.message p {
+  padding-bottom: 50px;
+}
+
+.button {
+  text-decoration: none;
+  background: #5dca88;
+  opacity: 0.8;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+  display: inline-block;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.clear {
+  clear: left;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-list img {
+  padding-top: 30px;
+}
+
+.footer-list {
+  border-top: 1px solid #eee;
+}
+
+.footer-list p {
+  font-size: 12px;
+  padding-bottom: 30px;
+  color: #b3aeb5;
+}
